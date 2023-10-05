@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8B1BE72ACF2CF900851D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1BE62ACF2CF900851D95 /* AppDelegate.swift */; };
+		DE8B1BE92ACF2CF900851D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1BE82ACF2CF900851D95 /* SceneDelegate.swift */; };
+		DE8B1BEB2ACF2CF900851D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1BEA2ACF2CF900851D95 /* ViewController.swift */; };
+		DE8B1BEE2ACF2CF900851D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8B1BEC2ACF2CF900851D95 /* Main.storyboard */; };
+		DE8B1BF12ACF2CF900851D95 /* SedinTechTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1BEF2ACF2CF900851D95 /* SedinTechTask.xcdatamodeld */; };
+		DE8B1BF32ACF2CFA00851D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8B1BF22ACF2CFA00851D95 /* Assets.xcassets */; };
+		DE8B1BF62ACF2CFA00851D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8B1BF42ACF2CFA00851D95 /* LaunchScreen.storyboard */; };
+		DE8B1C012ACF2CFB00851D95 /* SedinTechTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1C002ACF2CFB00851D95 /* SedinTechTaskTests.swift */; };
+		DE8B1C0B2ACF2CFB00851D95 /* SedinTechTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1C0A2ACF2CFB00851D95 /* SedinTechTaskUITests.swift */; };
+		DE8B1C0D2ACF2CFB00851D95 /* SedinTechTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1C0C2ACF2CFB00851D95 /* SedinTechTaskUITestsLaunchTests.swift */; };
+		DE8B1C1B2ACF2D4A00851D95 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1C1A2ACF2D4A00851D95 /* HomeViewController.swift */; };
+		DE8B1C1D2ACF2D5800851D95 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1C1C2ACF2D5800851D95 /* HomeViewModel.swift */; };
+		DE8B1C1F2ACF2D6400851D95 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1C1E2ACF2D6400851D95 /* HomeModel.swift */; };
+		DE8B1C222ACF2D9B00851D95 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1C212ACF2D9B00851D95 /* Networking.swift */; };
+		DE8B1C262ACF327F00851D95 /* UIimageURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1C252ACF327F00851D95 /* UIimageURL.swift */; };
+		DE8B1C2C2ACF333300851D95 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1C2A2ACF333300851D95 /* HomeTableViewCell.swift */; };
+		DE8B1C2D2ACF333300851D95 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE8B1C2B2ACF333300851D95 /* HomeTableViewCell.xib */; };
+		DE8B1C2F2ACF342400851D95 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B1C2E2ACF342400851D95 /* UIView.swift */; };
+		DE8B1C312ACF350500851D95 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8B1C302ACF350500851D95 /* Colors.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE8B1BFD2ACF2CFA00851D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8B1BDB2ACF2CF900851D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8B1BE22ACF2CF900851D95;
+			remoteInfo = SedinTechTask;
+		};
+		DE8B1C072ACF2CFB00851D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8B1BDB2ACF2CF900851D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8B1BE22ACF2CF900851D95;
+			remoteInfo = SedinTechTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE8B1BE32ACF2CF900851D95 /* SedinTechTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SedinTechTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8B1BE62ACF2CF900851D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE8B1BE82ACF2CF900851D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE8B1BEA2ACF2CF900851D95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE8B1BED2ACF2CF900851D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE8B1BF02ACF2CF900851D95 /* SedinTechTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SedinTechTask.xcdatamodel; sourceTree = "<group>"; };
+		DE8B1BF22ACF2CFA00851D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8B1BF52ACF2CFA00851D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE8B1BF72ACF2CFA00851D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8B1BFC2ACF2CFA00851D95 /* SedinTechTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SedinTechTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8B1C002ACF2CFB00851D95 /* SedinTechTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedinTechTaskTests.swift; sourceTree = "<group>"; };
+		DE8B1C062ACF2CFB00851D95 /* SedinTechTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SedinTechTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8B1C0A2ACF2CFB00851D95 /* SedinTechTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedinTechTaskUITests.swift; sourceTree = "<group>"; };
+		DE8B1C0C2ACF2CFB00851D95 /* SedinTechTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedinTechTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE8B1C1A2ACF2D4A00851D95 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DE8B1C1C2ACF2D5800851D95 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DE8B1C1E2ACF2D6400851D95 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		DE8B1C212ACF2D9B00851D95 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		DE8B1C252ACF327F00851D95 /* UIimageURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIimageURL.swift; sourceTree = "<group>"; };
+		DE8B1C2A2ACF333300851D95 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		DE8B1C2B2ACF333300851D95 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		DE8B1C2E2ACF342400851D95 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		DE8B1C302ACF350500851D95 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8B1BE02ACF2CF900851D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B1BF92ACF2CFA00851D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B1C032ACF2CFB00851D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8B1BDA2ACF2CF900851D95 = {
+			isa = PBXGroup;
+			children = (
+				DE8B1BE52ACF2CF900851D95 /* SedinTechTask */,
+				DE8B1BFF2ACF2CFB00851D95 /* SedinTechTaskTests */,
+				DE8B1C092ACF2CFB00851D95 /* SedinTechTaskUITests */,
+				DE8B1BE42ACF2CF900851D95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8B1BE42ACF2CF900851D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B1BE32ACF2CF900851D95 /* SedinTechTask.app */,
+				DE8B1BFC2ACF2CFA00851D95 /* SedinTechTaskTests.xctest */,
+				DE8B1C062ACF2CFB00851D95 /* SedinTechTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8B1BE52ACF2CF900851D95 /* SedinTechTask */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B1BE62ACF2CF900851D95 /* AppDelegate.swift */,
+				DE8B1BE82ACF2CF900851D95 /* SceneDelegate.swift */,
+				DE8B1BEA2ACF2CF900851D95 /* ViewController.swift */,
+				DE8B1C192ACF2D3600851D95 /* Modules */,
+				DE8B1C202ACF2D7400851D95 /* Networking */,
+				DE8B1C242ACF325D00851D95 /* Extension */,
+				DE8B1BEC2ACF2CF900851D95 /* Main.storyboard */,
+				DE8B1BF22ACF2CFA00851D95 /* Assets.xcassets */,
+				DE8B1C302ACF350500851D95 /* Colors.xcassets */,
+				DE8B1BF42ACF2CFA00851D95 /* LaunchScreen.storyboard */,
+				DE8B1BF72ACF2CFA00851D95 /* Info.plist */,
+				DE8B1BEF2ACF2CF900851D95 /* SedinTechTask.xcdatamodeld */,
+			);
+			path = SedinTechTask;
+			sourceTree = "<group>";
+		};
+		DE8B1BFF2ACF2CFB00851D95 /* SedinTechTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B1C002ACF2CFB00851D95 /* SedinTechTaskTests.swift */,
+			);
+			path = SedinTechTaskTests;
+			sourceTree = "<group>";
+		};
+		DE8B1C092ACF2CFB00851D95 /* SedinTechTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B1C0A2ACF2CFB00851D95 /* SedinTechTaskUITests.swift */,
+				DE8B1C0C2ACF2CFB00851D95 /* SedinTechTaskUITestsLaunchTests.swift */,
+			);
+			path = SedinTechTaskUITests;
+			sourceTree = "<group>";
+		};
+		DE8B1C192ACF2D3600851D95 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B1C232ACF31BD00851D95 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DE8B1C202ACF2D7400851D95 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B1C212ACF2D9B00851D95 /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DE8B1C232ACF31BD00851D95 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B1C1A2ACF2D4A00851D95 /* HomeViewController.swift */,
+				DE8B1C1C2ACF2D5800851D95 /* HomeViewModel.swift */,
+				DE8B1C1E2ACF2D6400851D95 /* HomeModel.swift */,
+				DE8B1C272ACF330200851D95 /* HomeTableViewCell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DE8B1C242ACF325D00851D95 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B1C252ACF327F00851D95 /* UIimageURL.swift */,
+				DE8B1C2E2ACF342400851D95 /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DE8B1C272ACF330200851D95 /* HomeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B1C2A2ACF333300851D95 /* HomeTableViewCell.swift */,
+				DE8B1C2B2ACF333300851D95 /* HomeTableViewCell.xib */,
+			);
+			path = HomeTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8B1BE22ACF2CF900851D95 /* SedinTechTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8B1C102ACF2CFB00851D95 /* Build configuration list for PBXNativeTarget "SedinTechTask" */;
+			buildPhases = (
+				DE8B1BDF2ACF2CF900851D95 /* Sources */,
+				DE8B1BE02ACF2CF900851D95 /* Frameworks */,
+				DE8B1BE12ACF2CF900851D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SedinTechTask;
+			productName = SedinTechTask;
+			productReference = DE8B1BE32ACF2CF900851D95 /* SedinTechTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE8B1BFB2ACF2CFA00851D95 /* SedinTechTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8B1C132ACF2CFB00851D95 /* Build configuration list for PBXNativeTarget "SedinTechTaskTests" */;
+			buildPhases = (
+				DE8B1BF82ACF2CFA00851D95 /* Sources */,
+				DE8B1BF92ACF2CFA00851D95 /* Frameworks */,
+				DE8B1BFA2ACF2CFA00851D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8B1BFE2ACF2CFA00851D95 /* PBXTargetDependency */,
+			);
+			name = SedinTechTaskTests;
+			productName = SedinTechTaskTests;
+			productReference = DE8B1BFC2ACF2CFA00851D95 /* SedinTechTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE8B1C052ACF2CFB00851D95 /* SedinTechTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8B1C162ACF2CFB00851D95 /* Build configuration list for PBXNativeTarget "SedinTechTaskUITests" */;
+			buildPhases = (
+				DE8B1C022ACF2CFB00851D95 /* Sources */,
+				DE8B1C032ACF2CFB00851D95 /* Frameworks */,
+				DE8B1C042ACF2CFB00851D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8B1C082ACF2CFB00851D95 /* PBXTargetDependency */,
+			);
+			name = SedinTechTaskUITests;
+			productName = SedinTechTaskUITests;
+			productReference = DE8B1C062ACF2CFB00851D95 /* SedinTechTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8B1BDB2ACF2CF900851D95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DE8B1BE22ACF2CF900851D95 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DE8B1BFB2ACF2CFA00851D95 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DE8B1BE22ACF2CF900851D95;
+					};
+					DE8B1C052ACF2CFB00851D95 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DE8B1BE22ACF2CF900851D95;
+					};
+				};
+			};
+			buildConfigurationList = DE8B1BDE2ACF2CF900851D95 /* Build configuration list for PBXProject "SedinTechTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8B1BDA2ACF2CF900851D95;
+			productRefGroup = DE8B1BE42ACF2CF900851D95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8B1BE22ACF2CF900851D95 /* SedinTechTask */,
+				DE8B1BFB2ACF2CFA00851D95 /* SedinTechTaskTests */,
+				DE8B1C052ACF2CFB00851D95 /* SedinTechTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8B1BE12ACF2CF900851D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8B1C312ACF350500851D95 /* Colors.xcassets in Resources */,
+				DE8B1BF62ACF2CFA00851D95 /* LaunchScreen.storyboard in Resources */,
+				DE8B1BF32ACF2CFA00851D95 /* Assets.xcassets in Resources */,
+				DE8B1C2D2ACF333300851D95 /* HomeTableViewCell.xib in Resources */,
+				DE8B1BEE2ACF2CF900851D95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B1BFA2ACF2CFA00851D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B1C042ACF2CFB00851D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8B1BDF2ACF2CF900851D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8B1C1B2ACF2D4A00851D95 /* HomeViewController.swift in Sources */,
+				DE8B1C1D2ACF2D5800851D95 /* HomeViewModel.swift in Sources */,
+				DE8B1C2F2ACF342400851D95 /* UIView.swift in Sources */,
+				DE8B1BF12ACF2CF900851D95 /* SedinTechTask.xcdatamodeld in Sources */,
+				DE8B1C262ACF327F00851D95 /* UIimageURL.swift in Sources */,
+				DE8B1C222ACF2D9B00851D95 /* Networking.swift in Sources */,
+				DE8B1C1F2ACF2D6400851D95 /* HomeModel.swift in Sources */,
+				DE8B1C2C2ACF333300851D95 /* HomeTableViewCell.swift in Sources */,
+				DE8B1BEB2ACF2CF900851D95 /* ViewController.swift in Sources */,
+				DE8B1BE72ACF2CF900851D95 /* AppDelegate.swift in Sources */,
+				DE8B1BE92ACF2CF900851D95 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B1BF82ACF2CFA00851D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8B1C012ACF2CFB00851D95 /* SedinTechTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B1C022ACF2CFB00851D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8B1C0B2ACF2CFB00851D95 /* SedinTechTaskUITests.swift in Sources */,
+				DE8B1C0D2ACF2CFB00851D95 /* SedinTechTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE8B1BFE2ACF2CFA00851D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8B1BE22ACF2CF900851D95 /* SedinTechTask */;
+			targetProxy = DE8B1BFD2ACF2CFA00851D95 /* PBXContainerItemProxy */;
+		};
+		DE8B1C082ACF2CFB00851D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8B1BE22ACF2CF900851D95 /* SedinTechTask */;
+			targetProxy = DE8B1C072ACF2CFB00851D95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE8B1BEC2ACF2CF900851D95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8B1BED2ACF2CF900851D95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE8B1BF42ACF2CFA00851D95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8B1BF52ACF2CFA00851D95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8B1C0E2ACF2CFB00851D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE8B1C0F2ACF2CFB00851D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8B1C112ACF2CFB00851D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SedinTechTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navin.SedinTechTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE8B1C122ACF2CFB00851D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SedinTechTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navin.SedinTechTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE8B1C142ACF2CFB00851D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navin.SedinTechTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SedinTechTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SedinTechTask";
+			};
+			name = Debug;
+		};
+		DE8B1C152ACF2CFB00851D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navin.SedinTechTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SedinTechTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SedinTechTask";
+			};
+			name = Release;
+		};
+		DE8B1C172ACF2CFB00851D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navin.SedinTechTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SedinTechTask;
+			};
+			name = Debug;
+		};
+		DE8B1C182ACF2CFB00851D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navin.SedinTechTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SedinTechTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8B1BDE2ACF2CF900851D95 /* Build configuration list for PBXProject "SedinTechTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8B1C0E2ACF2CFB00851D95 /* Debug */,
+				DE8B1C0F2ACF2CFB00851D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8B1C102ACF2CFB00851D95 /* Build configuration list for PBXNativeTarget "SedinTechTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8B1C112ACF2CFB00851D95 /* Debug */,
+				DE8B1C122ACF2CFB00851D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8B1C132ACF2CFB00851D95 /* Build configuration list for PBXNativeTarget "SedinTechTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8B1C142ACF2CFB00851D95 /* Debug */,
+				DE8B1C152ACF2CFB00851D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8B1C162ACF2CFB00851D95 /* Build configuration list for PBXNativeTarget "SedinTechTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8B1C172ACF2CFB00851D95 /* Debug */,
+				DE8B1C182ACF2CFB00851D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE8B1BEF2ACF2CF900851D95 /* SedinTechTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE8B1BF02ACF2CF900851D95 /* SedinTechTask.xcdatamodel */,
+			);
+			currentVersion = DE8B1BF02ACF2CF900851D95 /* SedinTechTask.xcdatamodel */;
+			path = SedinTechTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE8B1BDB2ACF2CF900851D95 /* Project object */;
+}
